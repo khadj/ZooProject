@@ -1,0 +1,6 @@
+name: Bear
+icon: "\uD83D\uDC3B"
+weight: 500.0
+maxCountOnCell: 5
+speed: 2
+necessaryFoodForFullSatiety: 80.0

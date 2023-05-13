@@ -1,0 +1,203 @@
+[
+  {
+    "name": "Wolf",
+    "icon": "\uD83D\uDC3A",
+    "weight": 50.0,
+    "maxCountOnCell": 30,
+    "speed": 3,
+    "necessaryFoodForFullSatiety": 8.0,
+    "eatingMap": {
+      "Horse": 10,
+      "Deer": 15,
+      "Rabbit": 60,
+      "Mouse": 80,
+      "Goat": 60,
+      "Sheep": 70,
+      "Boar": 15,
+      "Buffalo": 10,
+      "Duck": 40
+    }
+  },
+  {
+    "name": "Snake",
+    "icon": "\uD83D\uDC0D",
+    "weight": 15.0,
+    "maxCountOnCell": 30,
+    "speed": 1,
+    "necessaryFoodForFullSatiety": 3.0,
+    "eatingMap": {
+      "Fox": 15,
+      "Rabbit": 20,
+      "Mouse": 40,
+      "Duck": 10
+    }
+  },
+  {
+    "name": "Fox",
+    "icon": "\uD83E\uDD8A",
+    "weight": 8.0,
+    "maxCountOnCell": 30,
+    "speed": 2,
+    "necessaryFoodForFullSatiety": 2.0,
+    "eatingMap": {
+      "Rabbit": 70,
+      "Mouse": 90,
+      "Duck": 60,
+      "Caterpillar": 40
+    }
+  },
+  {
+    "name": "Bear",
+    "icon": "\uD83D\uDC3B",
+    "weight": 500.0,
+    "maxCountOnCell": 5,
+    "speed": 2,
+    "necessaryFoodForFullSatiety": 80.0,
+    "eatingMap": {
+      "Snake": 80,
+      "Deer": 40,
+      "Rabbit": 80,
+      "Mouse": 80,
+      "Goat": 90,
+      "Sheep": 70,
+      "Boar": 70,
+      "Buffalo": 50,
+      "Duck": 20,
+      "Caterpillar": 10
+    }
+  },
+  {
+    "name": "Eagle",
+    "icon": "\uD83E\uDD85",
+    "weight": 6.0,
+    "maxCountOnCell": 20,
+    "speed": 3,
+    "necessaryFoodForFullSatiety": 1.0,
+    "eatingMap": {
+      "Fox": 10,
+      "Rabbit": 90,
+      "Mouse": 90,
+      "Duck": 80
+    }
+  },
+  {
+    "name": "Horse",
+    "icon": "\uD83D\uDC0E",
+    "weight": 400.0,
+    "maxCountOnCell": 20,
+    "speed": 4,
+    "necessaryFoodForFullSatiety": 60.0,
+    "eatingMap": {
+      "Grass": 100
+    }
+  },
+  {
+    "name": "Deer",
+    "icon": "\uD83E\uDD8C",
+    "weight": 300.0,
+    "maxCountOnCell": 20,
+    "speed": 4,
+    "necessaryFoodForFullSatiety": 50.0,
+    "eatingMap": {
+      "Grass": 100
+    }
+  },
+  {
+    "name": "Rabbit",
+    "icon": "\uD83D\uDC07",
+    "weight": 2.0,
+    "maxCountOnCell": 150,
+    "speed": 2,
+    "necessaryFoodForFullSatiety": 0.45,
+    "eatingMap": {
+      "Grass": 100
+    }
+  },
+  {
+    "name": "Mouse",
+    "icon": "\uD83D\uDC01",
+    "weight": 0.05,
+    "maxCountOnCell": 500,
+    "speed": 1,
+    "necessaryFoodForFullSatiety": 0.01,
+    "eatingMap": {
+      "Caterpillar": 90,
+      "Grass": 100
+    }
+  },
+  {
+    "name": "Goat",
+    "icon": "\uD83D\uDC10",
+    "weight": 60.0,
+    "maxCountOnCell": 140,
+    "speed": 3,
+    "necessaryFoodForFullSatiety": 10.0,
+    "eatingMap": {
+      "Grass": 100
+    }
+  },
+  {
+    "name": "Sheep",
+    "icon": "\uD83D\uDC11",
+    "weight": 70,
+    "maxCountOnCell": 140,
+    "speed": 3,
+    "necessaryFoodForFullSatiety": 15.0,
+    "eatingMap": {
+      "Grass": 100
+    }
+  },
+  {
+    "name": "Boar",
+    "icon": "\uD83D\uDC17",
+    "weight": 400.0,
+    "maxCountOnCell": 50,
+    "speed": 2,
+    "necessaryFoodForFullSatiety": 50.0,
+    "eatingMap": {
+      "Mouse": 50,
+      "Caterpillar": 90,
+      "Grass": 100
+    }
+  },
+  {
+    "name": "Buffalo",
+    "icon": "\uD83D\uDC03",
+    "weight": 700.0,
+    "maxCountOnCell": 10,
+    "speed": 3,
+    "necessaryFoodForFullSatiety": 100.0,
+    "eatingMap": {
+      "Grass": 100
+    }
+  },
+  {
+    "name": "Duck",
+    "icon": "\uD83E\uDD86",
+    "weight": 1.0,
+    "maxCountOnCell": 200,
+    "speed": 4,
+    "necessaryFoodForFullSatiety": 0.15,
+    "eatingMap": {
+      "Caterpillar": 90,
+      "Grass": 100
+    }
+  },
+  {
+    "name": "Caterpillar",
+    "icon": "\uD83D\uDC1B",
+    "weight": 0.01,
+    "maxCountOnCell": 1000,
+    "speed": 0,
+    "necessaryFoodForFullSatiety": 0.0,
+    "eatingMap": {
+      "Grass": 100
+    }
+  },
+  {
+    "name": "Grass",
+    "icon": "\uD83C\uDF3F",
+    "weight": 0.0,
+    "maxCountOnCell": 1000
+  }
+]
